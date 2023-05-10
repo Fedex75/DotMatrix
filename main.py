@@ -32,7 +32,7 @@ for dot_y in range(0, 7):
 
                 char -= 1
 
-        out = ' '.join([str(int(b, 2)) for b in split_string(out, 32)])
+        out = ' '.join([str(int(b, 2)).ljust(11) for b in split_string(out, 32)])
 
         print('{}: {}'.format(segments[segment_counter], out))
         
