@@ -5,3 +5,5 @@ The circuit accepts 3 inputs:
 - Color signals: Any number > 0 on a color signal will set that color (use EITHER the dot signal OR a color signal)
 
 To display digits, add 48 to the value to get the character code
+
+Due to a limitation of the signed integer logic not all ASCII characters are available: the ~ is missing
